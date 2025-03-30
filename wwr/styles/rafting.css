@@ -11,6 +11,10 @@ main p {
   background-color: var(--secondary-color);
 }
 
+header nav{
+  border-top:3px solid var(--accent1-color);
+}
+
 nav a {
   color:var(--accent1-color);
   text-decoration: none;
@@ -19,6 +23,7 @@ nav a {
 
 header {
   background-color: var(--primary-color);
+  border-bottom: 3px solid var(--accent1-color);
 
 }
 
@@ -108,7 +113,7 @@ footer {
   color:var(--accent1-color);
   background-color: var(--secondary-color);
   text-align: center;
-  border-top: 5px solid;
+  border-top: 5px solid var(--accent1-color);
 }
   
 .socialmedia img {
