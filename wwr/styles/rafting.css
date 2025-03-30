@@ -88,6 +88,8 @@ article {
 
 section img {
   display:block;
+  width:30%;
+  height: auto;
 }
 
 body {
