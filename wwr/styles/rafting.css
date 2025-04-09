@@ -19,6 +19,10 @@ h1 {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 
 header {
   background-color: var(--accent2-color);
@@ -28,7 +32,7 @@ header {
   grid-template-columns: 200px auto;
   justify-content: space-around;
 	align-items: center;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 
@@ -74,13 +78,13 @@ header nav {
   font-size:x-large;
   text-decoration: none;
   padding: 10px;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 
 .hero {
   position:relative;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 .hero img {
@@ -96,7 +100,8 @@ header nav {
   font-size:3.5em;
   text-align: center;
   width:100%;
-  border:2px solid white;
+  border-top:2px solid white;
+  border-bottom: 2px solid white;
   top:10%;
   
 }
@@ -128,7 +133,7 @@ article {
   align-items: stretch;
   justify-content: space-around;
   padding: 30px;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 .history h2 {
@@ -149,7 +154,7 @@ article {
 .adventure {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  margin:5px;
+  /* margin:5px; */
 }
 
 .adventure h2{
@@ -183,16 +188,192 @@ footer p{
   text-align: center;
 } */
 
+.information{
+  /* padding: 1px; */
+  background-color: var(--primary-color);
+  text-align: left;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.information p{
+  margin:auto;
+  padding:20px;
+}
+
+
+.information h2{
+  padding-top:10px;
+  margin-top:0;
+  text-align: center;
+  color: white;
+
+}
+
+.information a{
+  color:white;
+}
+
+.map {
+  background-color: var(--primary-color);
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 10px;
+
+}
+
+.map h2 {
+  margin:auto;
+  color:white;
+  padding-top:10px;
+}
+
+iframe{
+  background: var(--primary-color);
+  width:98%;
+  height: 300px;
+  margin: auto;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+
+.employee {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: var(--primary-color);
+  color:white;
+  text-align: center;
+  border: 1px solid white;
+
+
+}
+
+.employee h2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin:auto;
+  padding:10px;
+
+}
+
+.employee p {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+.employee img {
+  height:200px;
+  width:auto;
+  margin:auto;
+}
+
+span {
+  color:white;
+  display:block;
+}
+
+.form{
+  background-color: var(--secondary-color);
+  padding:20px;
+}
+
+.form h2{
+  text-align: center;
+  padding: 10px;
+
+}
+
+form {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background: var(--accent2-color);
+  width:650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid black;
+  
+  display: grid;
+}
+
+
+form p{
+  color:black;
+
+}
+
+legend {
+  padding:0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+
+fieldset {
+  display: grid;
+  grid-gap:.5rem;
+  margin: 1rem;
+  border: 1px solid black;
+  padding:1rem;
+}
+
+label {
+  text-align:right;
+  padding-right: 1rem;
+}
+
+input,select,textarea {
+  padding:0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width:22px;
+  height:22px;
+  vertical-align:bottom;
+}
+
+.contact{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+textarea{
+  width: 100%;
+  padding:1px;
+}
+
+
+button {
+  width:30%;
+  margin: auto;
+  background: navy;
+  color:#fff;
+  border: 1px solid black;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+
+}
+
+button:hover {
+  background-color: darkgreen;
+}
 
 footer {
   display:grid;
-  grid-template-columns: 82% auto;
+  grid-template-columns: repeat(3,1fr);
+  /* display:flex; */
   color:var(--accent1-color);
   background-color: var(--primary-color);
   border-top: 4px dotted black;
-  margin: 5px;
   align-content: end;
 }
+
+
 
 footer p {
   grid-column: 1/2;
@@ -202,8 +383,14 @@ footer p {
 }
 
 footer nav {
-  grid-column: 2/3;
-  grid-row: 1/1;
+  /* grid-column: 2/3;
+  grid-row: 1/1; */
+  align-self: center;
+}
+
+.wireframe {
+  color:white;
+  text-align:center;
   align-self: center;
 }
 

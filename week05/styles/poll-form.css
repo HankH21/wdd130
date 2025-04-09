@@ -38,6 +38,10 @@ form {
     display: grid;
 }
 
+.form h2 {
+    text-align: center;
+}
+
 fieldset {
     display: grid;
     grid-gap:.5rem;
