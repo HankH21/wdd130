@@ -210,6 +210,15 @@ footer p{
 
 }
 
+.information h1{
+  color: white;
+  border-bottom: 3px solid white ;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom:20px;
+}
+
+
 .information a{
   color:white;
 }
