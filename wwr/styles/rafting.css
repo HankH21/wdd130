@@ -420,7 +420,7 @@ footer nav {
   overflow: hidden;
 }
 
-.home_hero h1{
+.home_hero h1 {
 
   background: rgba(147,190,183,0.85);
   /* background-color: var(--accent2-color); */
@@ -460,11 +460,11 @@ footer nav {
   border: 2px solid black;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-.trips-button:hover{
+.trips-button:hover {
   background-color:turquoise;
 }
 
@@ -517,7 +517,7 @@ a:hover{
   /* background-color: white; */
 }
 
-.home-grid1 h2{
+.home-grid1 h2 {
   padding:10px;
 }
 
@@ -552,7 +552,7 @@ padding: 5px;
 }
 
 
-.home-grid2 h2{
+.home-grid2 h2 {
   padding:10px;
 }
 
